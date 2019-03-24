@@ -4,7 +4,7 @@
     font-family: 'Raleway'
 }
 header{
-    background-image: url(background-image1.jpg);
+    background-image: url(./img/background-image1.jpg);
     height: 500px;
     background-size: cover;
     width: 100%;
@@ -230,7 +230,7 @@ h2{
     background: linear-gradient(
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0.6)
-        ), url(newsletter.jpg);
+        ), url(./img/newsletter.jpg);
     background-size: cover;
     height: 400px;
     margin-top: 20%;
