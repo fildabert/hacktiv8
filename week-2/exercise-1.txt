@@ -1,0 +1,45 @@
+// 1.
+STORE "FORCE" without any value
+STORE "MASS" with any value
+STORE "ACCELERATION" with any value
+
+CALCULATE "MASS" times "ACCELERATION"
+SET "FORCE" value with "CALCULATE" result
+
+DISPLAY "FORCE"
+
+// 2.
+STORE "YEAR" with any value
+
+IF "YEAR" mod 4 equals to 0, "YEAR" mod 100 does not equals to 0
+  DISPLAY true
+ELSE IF "YEAR" mod 4 equals to 0, "YEAR" mod 100 equals to 0, "YEAR" mod 400 equals to 0
+  DISPLAY true
+
+ELSE
+  DISPLAY false
+
+END IF
+
+// 3.
+STORE "CLOTHES" with no value
+
+WHILE "CLOTHES" < 20
+  ADD "CLOTHES" value by 1
+
+IF "CLOTHES" = 20
+  DO "TURN ON MACHINE"
+
+// 4.
+STORE "STUDENT" with no value
+STORE "LONG-NAILS" with random value
+
+IF "LONG-NAILS" is TRUE
+  DO "PUNISH HIM" and add "STUDENT" value with 1
+  ELSE
+  DO "PRAISE" add "STUDENT" value with 1
+
+WHILE "STUDENT" < 40
+  DO  IF "LONG-NAILS"
+
+DISPLAY "Class dismissed kids"
